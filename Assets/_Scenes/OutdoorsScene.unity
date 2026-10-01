@@ -1545,6 +1545,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5381323205619335116, guid: 7a6675341c42eb44583f33f2bbb356e9, type: 3}
   m_PrefabInstance: {fileID: 39990232}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &43711561 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5975014702520636110, guid: 451a5e27be1c2904ebfb3ca7094fdd64, type: 3}
+  m_PrefabInstance: {fileID: 5250422484103954092}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &43711564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 43711561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f867f8e1576963a4f802e96926e6ed92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GhoulController
+  _speed: 1.3
 --- !u!1001 &46181971
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -65287,11 +65305,14 @@ PrefabInstance:
     - target: {fileID: 5975014702528061598, guid: 451a5e27be1c2904ebfb3ca7094fdd64, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 7122db09428d8d149827cf7b2debf93a, type: 2}
+      objectReference: {fileID: 9100000, guid: 40ce7d75803bb2547b8e385c34a8aab5, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5975014702520636110, guid: 451a5e27be1c2904ebfb3ca7094fdd64, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 43711564}
   m_SourcePrefab: {fileID: 100100000, guid: 451a5e27be1c2904ebfb3ca7094fdd64, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
