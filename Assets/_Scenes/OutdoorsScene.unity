@@ -1111,6 +1111,256 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5381323205619335116, guid: 7a6675341c42eb44583f33f2bbb356e9, type: 3}
   m_PrefabInstance: {fileID: 22630929}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &24063253
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5975014702520636110, guid: 451a5e27be1c2904ebfb3ca7094fdd64, type: 3}
+      propertyPath: m_Name
+      value: GhoulEnemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 5975014702520798958, guid: 451a5e27be1c2904ebfb3ca7094fdd64, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 5975014702520798958, guid: 451a5e27be1c2904ebfb3ca7094fdd64, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5975014702520798958, guid: 451a5e27be1c2904ebfb3ca7094fdd64, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 5975014702520798958, guid: 451a5e27be1c2904ebfb3ca7094fdd64, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5975014702520798958, guid: 451a5e27be1c2904ebfb3ca7094fdd64, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5975014702520798958, guid: 451a5e27be1c2904ebfb3ca7094fdd64, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5975014702520798958, guid: 451a5e27be1c2904ebfb3ca7094fdd64, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5975014702520798958, guid: 451a5e27be1c2904ebfb3ca7094fdd64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5975014702520798958, guid: 451a5e27be1c2904ebfb3ca7094fdd64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 5975014702520798958, guid: 451a5e27be1c2904ebfb3ca7094fdd64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5975014702528061598, guid: 451a5e27be1c2904ebfb3ca7094fdd64, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 40ce7d75803bb2547b8e385c34a8aab5, type: 2}
+    - target: {fileID: 5975014702528061598, guid: 451a5e27be1c2904ebfb3ca7094fdd64, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 5975014702520798958, guid: 451a5e27be1c2904ebfb3ca7094fdd64, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2039365718}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5975014702520636110, guid: 451a5e27be1c2904ebfb3ca7094fdd64, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 24063260}
+    - targetCorrespondingSourceObject: {fileID: 5975014702520636110, guid: 451a5e27be1c2904ebfb3ca7094fdd64, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 24063259}
+    - targetCorrespondingSourceObject: {fileID: 5975014702520636110, guid: 451a5e27be1c2904ebfb3ca7094fdd64, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 24063257}
+    - targetCorrespondingSourceObject: {fileID: 5975014702520636110, guid: 451a5e27be1c2904ebfb3ca7094fdd64, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 24063256}
+    - targetCorrespondingSourceObject: {fileID: 5975014702520636110, guid: 451a5e27be1c2904ebfb3ca7094fdd64, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 24063255}
+    - targetCorrespondingSourceObject: {fileID: 5975014702520636110, guid: 451a5e27be1c2904ebfb3ca7094fdd64, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 24063261}
+    - targetCorrespondingSourceObject: {fileID: 5975014702520636110, guid: 451a5e27be1c2904ebfb3ca7094fdd64, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 24063263}
+    - targetCorrespondingSourceObject: {fileID: 5975014702520636110, guid: 451a5e27be1c2904ebfb3ca7094fdd64, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 24063264}
+  m_SourcePrefab: {fileID: 100100000, guid: 451a5e27be1c2904ebfb3ca7094fdd64, type: 3}
+--- !u!1 &24063254 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5975014702520636110, guid: 451a5e27be1c2904ebfb3ca7094fdd64, type: 3}
+  m_PrefabInstance: {fileID: 24063253}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &24063255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 24063254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eb9aa7183709da429076edc5294507b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: CodeMonkey_HealthSystem::CodeMonkey.HealthSystemCM.HealthSystemComponent
+  healthAmountMax: 100
+  startingHealthAmount: 100
+--- !u!114 &24063256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 24063254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f799573273b218f4091b42761e3f81bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GroundDetection
+  IsGrounded:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: GhoulJump, Assembly-CSharp
+        m_MethodName: SetIsGrounded
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!135 &24063257
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 24063254}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 64
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0.5, z: 0}
+--- !u!4 &24063258 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5975014702520798958, guid: 451a5e27be1c2904ebfb3ca7094fdd64, type: 3}
+  m_PrefabInstance: {fileID: 24063253}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &24063259
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 24063254}
+  m_Material: {fileID: 13400000, guid: c8678ed264b2df048be6296354a8267b, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 3.6
+  m_Direction: 1
+  m_Center: {x: 0, y: 2, z: 0}
+--- !u!54 &24063260
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 24063254}
+  serializedVersion: 5
+  m_Mass: 70
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
+--- !u!114 &24063261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 24063254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc8fce45da6421d4cb3e43f5b04a35f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GhoulAI
+--- !u!114 &24063263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 24063254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32d25f3ca7211b34ea8a1ca6d3ef4275, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GhoulAICalculations
+--- !u!114 &24063264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 24063254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de1a63f86bf7cd04896901536b2b59f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InFrontDetection
 --- !u!1001 &25447571
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -60998,6 +61248,82 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5381323205619335116, guid: 7a6675341c42eb44583f33f2bbb356e9, type: 3}
   m_PrefabInstance: {fileID: 2030006566}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2039365717
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2039365718}
+  - component: {fileID: 2039365719}
+  - component: {fileID: 2039365720}
+  m_Layer: 2
+  m_Name: Eyes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2039365718
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2039365717}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 3, z: 1.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 24063258}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2039365719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2039365717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 544e52e7528d39543a55e8259cace9bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ConeCollider
+  m_angle: 60
+  m_distance: 5
+  m_isTrigger: 1
+  m_isFixScale: 1
+--- !u!114 &2039365720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2039365717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23f8921a3c7b5554f90fd7c15d565e27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerDetection
+  IsDetected:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 24063261}
+        m_TargetAssemblyTypeName: GhoulAI, Assembly-CSharp
+        m_MethodName: CheckPlayerVisibility
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &2042034269
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -65716,7 +66042,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5975014702520636110, guid: 451a5e27be1c2904ebfb3ca7094fdd64, type: 3}
       propertyPath: m_Name
-      value: Ghoul@Animations
+      value: GhoulPlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 5975014702520636110, guid: 451a5e27be1c2904ebfb3ca7094fdd64, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 5975014702520798958, guid: 451a5e27be1c2904ebfb3ca7094fdd64, type: 3}
       propertyPath: m_LocalPosition.x
@@ -65802,6 +66132,7 @@ SceneRoots:
   - {fileID: 432432461}
   - {fileID: 2013410475}
   - {fileID: 5250422484103954092}
+  - {fileID: 24063253}
   - {fileID: 2123149004}
   - {fileID: 1325150150}
   - {fileID: 1380319128}
