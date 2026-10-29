@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class GhoulAI : MonoBehaviour
@@ -5,9 +6,14 @@ public class GhoulAI : MonoBehaviour
     Animator _animator;
     bool playerIsVisible = false;
 
+    [SerializeField]
+    GameObject player;
+
     void Awake()
     {
         _animator = GetComponent<Animator>();
+
+        _animator.GetBehaviour<GhoulRunStateMachine>().Player = player;
     }
 
     public void CheckPlayerVisibility(GameObject player)
